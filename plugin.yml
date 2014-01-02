@@ -1,0 +1,15 @@
+name: QuakePlugin
+version: 1.0
+main: com.modcrafting.carmacking.quakeplugin.QuakePlugin
+website: http://modcrafting.com
+author: Deathmarine
+description: >
+             Quake Mini-Game Bukkit Plugin.
+permissions:
+  quake.*:
+    default: op
+    description: Allows the Administration to Full Control
+    children:
+      quake.railgun: true
+  quake.railgun:
+    description: Allows the use of railgun
